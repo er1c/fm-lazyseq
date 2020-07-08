@@ -1,0 +1,5 @@
+options:
+  - title: Core
+    url: core/
+    menu_section: core
+

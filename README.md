@@ -1,26 +1,36 @@
-Frugal Mechanic LazySeq
-=======================
+# LazySeq
 
-[![Build Status](https://travis-ci.org/frugalmechanic/fm-lazyseq.svg?branch=master)](https://travis-ci.org/frugalmechanic/fm-lazyseq)
+[![Build](https://github.com/er1c/fm-lazyseq/workflows/Continuous%20Integration/badge.svg?branch=main)](https://github.com/er1c/fm-lazyseq/actions?query=branch%3Amain+workflow%3A%22Continuous+Integration%22) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.er1c/fm-lazyseq_2.13/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.er1c/fm-lazyseq_2.13)
 
-Frugal Mechanic's LazySeq class and implementations.
+## Documentation
 
-Usage
------
+Links:
 
-TODO
+- [Website](https://er1c.github.io/fm-lazyseq/)
+- [API documentation](https://er1c.github.io/fm-lazyseq/api/)
 
-Authors
--------
 
-Tim Underwood (<a href="https://github.com/tpunder" rel="author">GitHub</a>, <a href="https://www.linkedin.com/in/tpunder" rel="author">LinkedIn</a>, <a href="https://twitter.com/tpunder" rel="author">Twitter</a>, <a href="https://plus.google.com/+TimUnderwood0" rel="author">Google Plus</a>)
+### Usage
 
-Copyright
----------
+Add this to your `build.sbt`:
 
-Copyright [Frugal Mechanic](http://frugalmechanic.com)
+```scala
+libraryDependencies += "io.github.er1c" %% "fm-lazyseq" % "1.0.0-RC1"
+```
 
-License
--------
+## Contributing
 
-[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
+The LazySeq project welcomes contributions from anybody wishing to participate.  All code or documentation that is provided must be licensed with the same license that Type Safe Equals is licensed with (Apache 2.0, see [LICENCE](./LICENSE.md)).
+
+People are expected to follow the [Scala Code of Conduct](./CODE_OF_CONDUCT.md) when discussing Type Safe Equals on GitHub, Gitter channel, or other venues.
+
+Feel free to open an issue if you notice a bug, have an idea for a feature, or have a question about the code. Pull requests are also gladly accepted. For more information, check out the [contributor guide](./CONTRIBUTING.md).
+
+## Copyright
+
+Copyright 2019 [Frugal Mechanic](http://frugalmechanic.com).
+Copyright 2020 the fm-lazyseq contributors.
+
+## License
+
+All code in this repository is licensed under the Apache License, Version 2.0.  See [LICENCE](./LICENSE.md).
